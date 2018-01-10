@@ -1,0 +1,42 @@
+.heading {
+  font-weight: 900;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .heading {
+    font-size: 12px;
+  }
+}
+
+.body {
+  background-size: auto auto;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 767px) {
+  .body {
+    background-size: 100% 100%;
+  }
+}
+
+.nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-form {
+  padding: 10px 15px;
+  margin-top: 8px;
+  margin-right: -15px;
+  margin-bottom: 8px;
+  margin-left: -15px;
+  border-top: none !important;
+  border-bottom: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}

@@ -9,7 +9,7 @@ var express = require("express"),
   passportLocalMongoose = require("passport-local-mongoose"),
   User = require("./models/user.js");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/kit-app);
+mongoose.connect("mongodb://gowty:qwerty@ds253587.mlab.com:53587/auth");
 var port = process.env.PORT || 5000;
 app.set("view engine", "ejs");
 app.use(express.static("public"));
